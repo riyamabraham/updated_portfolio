@@ -12,23 +12,7 @@
 
 <body>
 
-	<ul class="nav nav-pills">
-		<li role="presentation">
-			<a href="https://www.linkedin.com">
-				<img src="assets/images/linkedin-128.png" alt="Go to linkedin!" width="42" height="42" border="0">
-			</a>
-		</li>
-		<li role="presentation">
-			<a href="https://github.com/">
-				<img src="assets/images/github-128.png" alt="Go to github!" width="42" height="42" border="0">
-			</a>
-		</li>
-		<li role="presentation">
-			<a href="https://stackoverflow.com">
-				<img src="assets/images/stackoverflow-128.png" alt="Go to stackoverflow!" width="42" height="42" border="0">
-			</a>
-		</li>
-	</ul>
+
 
 	<div class="jumbotron">
 		<div class="container">
@@ -39,13 +23,13 @@
 					<nav>
 						<ul>
 							<li>
-								<a href="index.html">About</a>
+								<a href="#About">About</a>
 							</li>
 							<li>
-								<a href="portfolio.html">Portfolio</a>
+								<a href="#portfolio">Portfolio</a>
 							</li>
 							<li>
-								<a href="contact.html">Contact</a>
+								<a href="#contact">Contact</a>
 							</li>
 						</ul>
 					</nav>
@@ -54,7 +38,10 @@
 		</div>
 	</div>
 
-	<main class="container">
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+
+	<section id="About">
 		<div class="row">
 			<div class="main-section">
 
@@ -62,23 +49,230 @@
 					<h1>About Me</h1>
 				</div>
 				<div class="row">
+					<div class="col-sm-1"></div>
 					<div class="col-sm-3">
 						<img src="assets/images/img.jpg" class="auth-image" alt="placeholder" width="170" height="220">
 					</div>
-					<div class="col-sm-9">
+					<div class="col-sm-7">
 						<p>I have BS degree in Information Technology Engineering with a GPA of 3.332. Through my 4 year degree , I have hands-on
 							experience with programming languages like C, C++, Java and scripting languages like HTML, CSS, Javascript.I had finished
 							my degree from an autonomous university in India (UNIVERSITY OF KERALA) and secured 5-th Rank in University Level.I
 							can work well both individually and in a team.</p>
 
-						<p>I can work hard to meet my goals and dedicate time to perform the best.I am taking some online coding classes also.My passion for coding made me to research the requirements for becoming a full stack Web Developer and
-							I decided to join NorthWestern university School Of Professional Studies to advance my knowledge. </p>
+						<p>I can work hard to meet my goals and dedicate time to perform the best.I am taking some online coding classes also.My
+							passion for coding made me to research the requirements for becoming a full stack Web Developer and I decided to join
+							NorthWestern university School Of Professional Studies to advance my knowledge. </p>
 					</div>
 				</div>
 			</div>
 		</div>
+	</section>
 
-	</main>
+
+
+	<div id="follow">
+		<div class="row">
+			<h2>FOLLOW ME</h2>
+
+			<div class="col-sm-3"></div>
+			<div class="col-sm-6">
+				<p>Email Me : riyamaryabraham12@gmail.com</p>
+				<p>Address : 1766 Greenwood Road, Glenview, Illinois</p>
+				<ul class="nav nav-pills">
+					<li role="presentation">
+						<a href="https://www.linkedin.com">
+							<img src="assets/images/linkedin-128.png" alt="Go to linkedin!" width="42" height="42" border="0">
+						</a>
+					</li>
+					<li role="presentation">
+						<a href="https://github.com/">
+							<img src="assets/images/github-128.png" alt="Go to github!" width="42" height="42" border="0">
+						</a>
+					</li>
+					<li role="presentation">
+						<a href="https://stackoverflow.com">
+							<img src="assets/images/stackoverflow-128.png" alt="Go to stackoverflow!" width="42" height="42" border="0">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-3"></div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<!--portfolio-->
+
+	<section id="portfolio">
+		<div class="main-section">
+			<div class="row">
+				<h1>Portfolio</h1>
+				<div class="col-sm-6">
+					<div class="row">
+						<div class="col-sm-2"></div>
+						<div class="col-sm-8">
+							<h2>Activities</h2>
+							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+								<!-- Indicators -->
+								<ol class="carousel-indicators">
+									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="5"></li>
+								</ol>
+
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner" role="listbox">
+									<div class="item active">
+										<a href="https://riyamabraham.github.io/Psychic-Game/">
+											<img src="assets/images/word-guessing-game.jpg" alt="physic game">
+											<div class="carousel-caption">
+												<h3>Wanna Guess A Word!!</h3>
+											</div>
+										</a>
+									</div>
+									<div class="item">
+										<a href="https://riyamabraham.github.io/Word-Guess-Game/">
+											<img src="assets/images/hangman.jpg" alt="hangman game">
+											<div class="carousel-caption">
+												<h3>Hangman!!</h3>
+											</div>
+										</a>
+									</div>
+									<div class="item">
+										<a href="https://riyamabraham.github.io/unit-4-game/">
+											<img src="assets/images/crystals.jpg" alt="crystal game">
+											<div class="carousel-caption">
+												<h3>Crystal Collector!!</h3>
+											</div>
+										</a>
+									</div>
+									<div class="item">
+										<a href="https://riyamabraham.github.io/Trivia_Trivia/">
+											<img src="assets/images/trivia.jpg" alt="trivia game">
+											<div class="carousel-caption">
+												<h3>Trivia Time!!</h3>
+											</div>
+										</a>
+									</div>
+									<div class="item">
+										<a href="https://riyamabraham.github.io/Giphy/">
+											<img src="assets/images/giphy.png" alt="giphy game">
+											<div class="carousel-caption">
+												<h3>The API Magic!!</h3>
+											</div>
+										</a>
+									</div>
+									<div class="item">
+										<a href="https://riyamabraham.github.io/train_firebase/">
+											<img src="assets/images/train.jpg" alt="train game">
+											<div class="carousel-caption">
+												<h3>Train Schedule Model!!</h3>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<!-- Controls -->
+								<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+
+
+						</div>
+						<div class="col-sm-2"></div>
+					</div>
+					<!--subrow-->
+					<div class="row">
+						<div class="col-sm-2"></div>
+						<div class="col-sm-8">
+							<p id="abtwork">
+								These are my initial works, used HTML5, CSS3, Bootstrap, Firebase. At the beginning the works were little challenging but
+								later on it became easy to do. These works shows my attempts with initial programming logic.
+							</p>
+						</div>
+						<div class="col-sm-2"></div>
+					</div>
+					<!--subrow-->
+				</div>
+				<!--colsm6first-->
+
+				<div class="col-sm-6">
+					<div class="row">
+						<h2>Project #1</h2>
+						<div class="col-sm-2"></div>
+						<div class="col-sm-8">
+							<a href="https://marissam272.github.io/Self-Defense-App/self-defense">
+								<img src="assets/images/project1.jpg" alt="martial arts" width="360" height="380">
+							</a>
+							<p id="abtwork">
+								The project displays a webpage which shows different Martial-Arts techniques the user to explore the nearby schools and can
+								also view additional videos.There is also a sign up form where the user can subscribe for a newsletter.Used both
+								google maps and youtubes API for locations and videos.
+							</p>
+						</div>
+						<div class="col-sm-2"></div>
+					</div>
+				</div>
+				<!--colsm6 second-->
+			</div>
+			<!--main row-->
+		</div>
+		<!--main section-->
+
+	</section>
+
+
+
+<section id="contact">
+	<!--contact-->
+	<div id="formset">
+		<h2>CONTACT ME</h2>
+		<div class="row">
+
+			<div class="col-sm-3"></div>
+			<div class="col-sm-6">
+				<form>
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" class="form-control" id="name" placeholder="name">
+					</div>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Email address</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea class="form-control" rows="3"></textarea>
+					</div>
+
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+			<div class="col-sm-3"></div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
 
 
 	<footer>
@@ -117,6 +311,28 @@
 
 		</div>
 	</footer>
+
+
+
+
+	<script>
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+			
+			function scrollFunction() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					document.getElementById("myBtn").style.display = "block";
+				} else {
+					document.getElementById("myBtn").style.display = "none";
+				}
+			}
+			
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+			</script>
 
 
 
