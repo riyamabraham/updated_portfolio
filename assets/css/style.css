@@ -22,6 +22,10 @@ nav{
 body{
     background-image: url("../images/website.png");
     opacity: 0.9;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav li {
