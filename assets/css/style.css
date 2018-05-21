@@ -162,4 +162,48 @@ h1{
   #myBtn:hover {
     background-color: rgb(54, 126, 145);
   }
+
+
+  /*project styling*/
+
+  .image {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.6;
+    transform:scale(1.3);
+	transition:1s;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text1,.text2 {
+    background-color: rgb(216, 37, 37);
+    border-radius: 100px;
+    color: white;
+    display: inline;
+    margin:5px;
+    font-size: 16px;
+    width: 50px;
+    padding: 20px;
+  }
   
