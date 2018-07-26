@@ -211,4 +211,90 @@ h1{
   a:hover{
     text-decoration: none;
   }
+
+
+  /*portfolio*/
+
+  #portfolio{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-image: url("../images/concrete_seamless.png");
+  }
+
+  
+
+  #project1,#project2,#project3{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    color:black;
+    text-align: center;
+  }
+
+  #projectabt{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+
+.img-wrapper{
+  height: 85%;
+  width: 85%;
+}
+
+
+
+
+  .hover1{
+ 
+    height:85%;
+    width: 85%;
+  }
+
+  .hover2{
+    height: 50%;
+    width: 50%;
+  }
+
+
+  
+
+.img-wrapper img {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    vertical-align: middle;
+}
+
+.img-wrapper img:hover {
+    transform:scale(1.1);
+    -ms-transform:scale(1.1); /* IE 9 */
+    -moz-transform:scale(1.1); /* Firefox */
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -o-transform:scale(1.1); /* Opera */
+}
+
+
+.btn-change{
+  height: 50px;
+  width: 100px;
+  background: white;
+  margin: 20px;
+  float: left;
+  box-shadow: 0 0 1px #ccc;
+  -webkit-transition: all 0.5s ease-in-out;
+  border: 0px;
+  color: #fff;
+}
+.btn-change:hover{
+  -webkit-transform: scale(1.1);
+  background: white;
+}
+
+
+
+
   
